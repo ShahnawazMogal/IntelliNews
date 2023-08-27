@@ -1,68 +1,40 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# IntelliNews Chrome Extension
 
-## Available Scripts
+IntelliNews is a Chrome extension that empowers users to gain a more comprehensive and well-rounded perspective on news articles they're reading. By providing a curated list of thumbnails from various news sources covering the same topic or incident, IntelliNews enables users to avoid bias and stay updated with different viewpoints.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Bias Avoidance:** Users can explore thumbnails from different news sources, minimizing reliance on a single source and promoting balanced news consumption.
+- **Real-time Updates:** IntelliNews offers updates from various news services about the same topic or incident.
+- **Ready for Diverse Content:** Ideal for generating suitable images for advertisements, videos, blogs, news, and other web thumbnails.
+- **Automated Image Cropping:** The extension automatically focuses on the most important part of news articles for cropping.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies Used
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- Python
+- OpenCV
+- JavaScript (Chrome Extension)
 
-### `npm test`
+## How to Use
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Install the Chrome extension:
+   - Clone or download this repository.
+   - Open Google Chrome and go to `chrome://extensions/`.
+   - Enable "Developer mode."
+   - Click "Load unpacked" and select the downloaded repository folder.
 
-### `npm run build`
+2. While reading a news article on a specific website, click on the IntelliNews extension icon in your browser.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. A list of thumbnails from other news sources discussing the same news incident or topic will be displayed. This helps you gain a more comprehensive understanding of the news.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+4. Click on a thumbnail to open the corresponding news article in a new tab.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## About the Author
 
-### `npm run eject`
+IntelliNews was developed by Shahnawaz Mogal.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## License
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is licensed under the [MIT License](LICENSE).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Feel free to contribute, suggest improvements, and report issues. Your feedback is valuable!
